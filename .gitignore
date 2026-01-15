@@ -1,0 +1,29 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Firebase credentials
+GoogleService-Info.plist
+
+# OS files
+.DS_Store
+*.swp
+*~
+
+# Local configuration
+*.xcconfig
+!Debug.xcconfig
+!Release.xcconfig
